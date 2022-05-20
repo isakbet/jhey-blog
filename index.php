@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Noto+Serif|Tangerine" rel="stylesheet">
+  <!-- Styling for publika sidan -->
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Document</title>
+  <title>Blogg-sida | Home</title>
 </head>
 <body>
   <header>
