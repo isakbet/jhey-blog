@@ -10,12 +10,13 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
   <!-- Styling for publika sidan -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">  
   <title>Jhey's-blog | Home</title>
 </head>
 
 <body>
+  <!-- Header -->
+  <?php include 'layout/header.php'; ?>
   <header class="masthead" style="background-image:url('assets/img/home-bg.jpg');">
     <div class="overlay"></div>
     <div class="container">
@@ -32,8 +33,12 @@
   </main>
   <footer>
   </footer>
+  <!-- Footer -->
+  <?php include 'layout/footer.php'; ?>
+
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
