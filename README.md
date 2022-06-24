@@ -1,4 +1,4 @@
-# Blogg-sida
+# Jhey-blogg
 
 # Del 1: MySQL
 ### Skapa tabellen “posts”, i en databas med namnet “blog”
