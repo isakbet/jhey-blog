@@ -11,7 +11,7 @@ if (strlen($_SESSION['login']) == 0) {
         $id = intval($_GET['imgid']);
         move_uploaded_file($_FILES["img1"]["tmp_name"], "assets/img/postimages/" . $_FILES["img1"]["name"]);
         $sql = "UPDATE posts SET image1=:image1 WHERE id=:id";
-        $query = $dbh->prepare($sql);
+        $query = $pdo->prepare($sql);
         $query->bindParam(':image1', $image1, PDO::PARAM_STR);
         $query->bindParam(':id', $id, PDO::PARAM_STR);
         $query->execute();
@@ -58,7 +58,7 @@ if (strlen($_SESSION['login']) == 0) {
                     <?php
                     $id = intval($_GET['imgid']);
                     $sql = "SELECT image1 FROM posts WHERE posts.id=:id";
-                    $query = $dbh->prepare($sql);
+                    $query = $pdo->prepare($sql);
                     $query->bindParam(':id', $id, PDO::PARAM_STR);
                     $query->execute();
                     $results = $query->fetchAll(PDO::FETCH_OBJ);
