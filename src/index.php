@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Noto+Serif|Tangerine" rel="stylesheet">
   <!-- Styling for publika sidan -->
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Blogg-sida | Home</title>
+  <title>Jhey's-blog | Home</title>
 </head>
 <body>
   <header>
