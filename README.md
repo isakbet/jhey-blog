@@ -1,5 +1,9 @@
 # Jhey-blogg
 
+# Desktop Preview
+
+![Design preview for jhey blog](./public/assets/img/laptop-preview.jpg)
+
 # Del 1: MySQL
 ### Skapa tabellen “posts”, i en databas med namnet “blog”
 
