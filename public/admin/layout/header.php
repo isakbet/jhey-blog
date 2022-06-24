@@ -43,7 +43,7 @@
                     <?php
                     $email = $_SESSION['alogin'];
                     $sql2 = "SELECT `username` FROM `admin` WHERE `email`=:email;";
-                    $query = $dbh->prepare($sql2);
+                    $query = $pdo->prepare($sql2);
                     $query->bindParam(':email', $email, PDO::PARAM_STR);
                     $query->execute();
                     $results = $query->fetchAll(PDO::FETCH_OBJ);

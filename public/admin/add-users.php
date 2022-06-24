@@ -1,5 +1,5 @@
 <?php
-require('../src/config.php');
+require('./src/config.php');
 $pageTitle = 'Create User';
 $pageId = 'create';
 // debug($_POST);

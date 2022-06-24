@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../src/config.php');
+include('./src/config.php');
 if (!empty($_SESSION['alogin'])) {
     header("location: index.php");
 } else {

@@ -1,7 +1,7 @@
 <?php
 session_set_cookie_params(0);
 session_start();
-include '../src/config.php';
+include './src/config.php';
 if (strlen($_SESSION['login']) == 0) {
     header('location: login.php');
 } else {

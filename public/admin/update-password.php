@@ -1,7 +1,7 @@
 <?php
 session_set_cookie_params(0);
 session_start();
-include '../src/config.php';
+include './src/config.php';
 error_reporting(0);
 if (strlen($_SESSION['alogin']) == 0) {
     header('location: login.php');
