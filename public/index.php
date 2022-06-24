@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
   <!-- Styling for publika sidan -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">  
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
   <title>Jhey's-blog | Home</title>
 </head>
 
@@ -30,6 +30,19 @@
     </div>
   </header>
   <main>
+    <div class="container">
+      <div class="row">
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-lg-12">
+          <div class="clearfix">
+            <a href="#">
+              <button class="btn btn-primary float-right" type="button">Read more&nbsp;⇒</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <footer>
   </footer>
