@@ -6,7 +6,7 @@
 $host 	  = 'localhost';
 $database = 'blog';
 $user     = 'root';
-$password = 'root';
+$password = '';
 $charset  = 'utf8mb4';
 
 $dns 	  = "mysql:host={$host};dbname={$database};charset={$charset}";
